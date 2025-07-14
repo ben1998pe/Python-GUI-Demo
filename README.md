@@ -15,6 +15,16 @@ Este proyecto demuestra cómo crear interfaces gráficas modernas y funcionales 
 
 ## ✨ Características
 
+### 🎨 Interfaz Mejorada (Recomendada)
+- ✅ **4 temas de colores** (Azul, Verde, Morado, Rojo)
+- ✅ **Validación avanzada** de email y edad
+- ✅ **Tabla de datos** para ver registros guardados
+- ✅ **Exportar a CSV** con diálogo de archivo
+- ✅ **Confirmación** antes de limpiar formulario
+- ✅ **Carga automática** de datos existentes
+- ✅ **Más intereses** (8 opciones)
+- ✅ **Ventana más grande** (1000x700)
+
 ### 🎨 Interfaz Moderna (CustomTkinter)
 - ✅ Diseño contemporáneo con tema oscuro/claro
 - ✅ Componentes estilizados y modernos
@@ -60,6 +70,11 @@ pip install -r requirements.txt
 
 3. **Ejecutar la aplicación:**
 
+**Versión Mejorada (Recomendada):**
+```bash
+python ejemplo_interfaz_mejorado.py
+```
+
 **Versión Moderna (CustomTkinter):**
 ```bash
 python ejemplo_interfaz.py
@@ -74,12 +89,13 @@ python ejemplo_tkinter_basico.py
 
 ```
 python-gui-demo/
-├── ejemplo_interfaz.py          # Versión moderna con CustomTkinter
-├── ejemplo_tkinter_basico.py    # Versión básica con Tkinter
-├── requirements.txt              # Dependencias del proyecto
-├── pyproject.toml              # Configuración del proyecto
-├── README.md                   # Este archivo
-└── datos_usuarios.json         # Archivo generado con los datos
+├── ejemplo_interfaz.py                    # Versión moderna con CustomTkinter
+├── ejemplo_interfaz_mejorado.py          # Versión mejorada con temas y tabla
+├── ejemplo_tkinter_basico.py             # Versión básica con Tkinter
+├── requirements.txt                       # Dependencias del proyecto
+├── pyproject.toml                       # Configuración del proyecto
+├── README.md                            # Este archivo
+└── datos_usuarios.json                  # Archivo generado con los datos
 ```
 
 ## 🎯 Uso
